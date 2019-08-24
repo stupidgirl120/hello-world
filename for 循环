@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan 28 18:53:39 2019
+
+@author: rebeccawang
+"""
+
+sites=["Baidu", "Google", "Runoob", "Taobao"]
+for site in sites:
+    if site == "Runob":
+        print("菜鸟教程！")
+        break
+    print("循环教程"+site)
+else:
+    print('没有循环教程！')
+    
+print('完成循环！')
+
+for letter in 'Runoob':
+    if letter == 'b':
+        break
+    print('当前字母为：', letter)
+
+var=10    
+while var>0:
+    print('当前字母为', var)
+    var=var-1
+    if var==5:
+        break
+print('good bye!')
